@@ -1,0 +1,272 @@
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #9926f0;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-rounded span i {
+  line-height: 2.5rem;
+  color: white;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.75));
+  color: aliceblue;
+}
+.btn-rounded:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 600;
+}
+.display-2--description {
+  font-size: 1rem;
+  display: block;
+  margin-top: 1.2rem;
+  text-transform: none;
+}
+
+.heading-line {
+  content: "";
+  width: 15rem;
+  height: 0.3rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #9926f0;
+}
+
+.display-3 {
+  font-family: "Gentium Book Plus", serif;
+}
+.display-3--title {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: "Gentium Book Plus", serif;
+  display: inline-block;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-right {
+  border-right: 0.3rem solid gray;
+  height: 100%;
+}
+
+.menu {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.75));
+}
+.menu .container-fluid .navbar-brand .logo {
+  width: 4rem;
+  height: 4rem;
+}
+.menu li {
+  padding: 0 0.7rem;
+}
+.menu li a {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.75));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.services {
+  position: relative;
+  padding-top: 6rem;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 0;
+}
+.services__content p {
+  font-size: 1.6rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.services .icon {
+  font-size: 1.5rem;
+  color: #9926f0;
+}
+
+.reviews {
+  position: relative;
+  padding-top: 6rem;
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.75));
+}
+
+.portfolio {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.portfolio button {
+  text-transform: capitalize;
+}
+
+.portfolio-box {
+  position: relative;
+  width: 100%;
+  height: 27rem;
+  overflow: hidden;
+  margin-bottom: 1.1rem;
+  border-top: 0.5rem solid #c685f7;
+}
+.portfolio-box img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio-box .portfolio-info {
+  background-color: rgba(153, 38, 240, 0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.portfolio-box .portfolio-info .cap {
+  text-align: center;
+  color: antiquewhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.portfolio-box .portfolio-info .cap h4 {
+  text-transform: uppercase;
+  display: block;
+  font-size: 3rem;
+  font-family: "Gentium Book Plus", serif;
+}
+.portfolio-box .portfolio-info .cap p {
+  font-size: 2.4rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.portfolio-box:hover img {
+  transform: scale(1.5);
+  transition-duration: 1s;
+  transition-property: all;
+}
+.portfolio-box:hover .portfolio-info {
+  opacity: 1;
+  visibility: visible;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box__icon {
+  width: 2rem;
+  stroke: #9926f0;
+  padding-top: 0.5rem;
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.contact-box__info--subtitle {
+  color: #afb6cd;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.footer-sm a:hover {
+  color: #9926f0;
+}
+
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.company-list li a:hover {
+  color: #9926f0;
+}
+
+.footer-bottom {
+  background-color: #151414;
+}
+.footer-bottom__copyright {
+  color: #afb6cd;
+  font-weight: 400;
+}
+.footer-bottom__copyright a {
+  color: #afb6cd;
+  text-decoration: none;
+}
+.footer-bottom__copyright a:hover {
+  color: #9926f0;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 99999;
+  background-color: #fff;
+}
+.back-to-top i {
+  color: #d122e3;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style.css.map */

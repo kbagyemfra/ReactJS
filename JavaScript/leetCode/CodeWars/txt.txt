@@ -1,0 +1,14 @@
+function adball(){
+  adb devices | egrep '\t(device|emulator)' | cut -f 1 | xargs -J% -n1 -P5 \
+     adb -s % "$@"
+}
+
+# Aliases
+alias qa1-log='adb -s 22239a09dab4b890 logcat > ~/Documents/Parrot/$(date +%m-%d-%y_%H%m)_qa1.log'
+alias qa1='adb -s 22239a09dab4b890'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ls='ls -GwF'
+alias ll='ls -alh'
+alias qa1-rdver='adb -s 22239a09dab4b890 shell idaccess print'
+alias qa1-pver='adb -s 22239a09dab4b890 shell dumpsys package com.latch.parrot | grep versionName'

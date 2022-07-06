@@ -1,0 +1,57 @@
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+
+        <!-- Break with Wave
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg> -->
+
+        <div class="container">
+            <!-- Container Header -->
+            <div class="row text-center ">
+                <h1 class="display-3 fw-bold text-white">Reviews</h1>
+                <hr class="mx-auto">
+                <p class="lead pt-1">What my Customers Say</p>
+            </div>
+
+            <!-- Review Content -->
+            <div class="row align-items-center">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- CAROUSEL ITEM 1 -->
+                        <div class="carousel-item active">
+                            <!-- testimonials card  -->
+                            <div class="reviews__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto
+                                    atque repudiandae.
+                                    Distinctio.
+                                    <i class="fas fa-quote-right"></i>
+                                <div class="ratings p-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!-- client picture  -->
+                            <div class="reviews__picture">
+                                <img src="./images/person1.jpeg" alt="client-1 picture"
+                                    class="rounded-circle img-fluid">
+                            </div>
+                            <!-- client name & role  -->
+                            <div class="reviews__name">
+                                <h3>Patrick Muriungi</h3>
+                                <p class="fw-light">CEO & founder</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+    </section> 

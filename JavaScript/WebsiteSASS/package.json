@@ -1,0 +1,25 @@
+{
+  "name": "websitesass",
+  "version": "1.0.0",
+  "description": "Learning bootstrap v5 with SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "devDependencies": {
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.0"
+  },
+  "author": "Kojo Agyemfra",
+  "license": "MIT"
+}

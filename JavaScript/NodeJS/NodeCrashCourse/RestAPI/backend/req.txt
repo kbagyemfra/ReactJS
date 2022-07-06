@@ -1,0 +1,13 @@
+{[
+  params: { id: '6257998a73290dcb7a6d04b8' },
+,
+  body: {
+    name: 'Patricia Lebsack',
+    username: 'Karianne',
+    email: 'Julianne.OConner@kory.org',
+    city: 'South Elvis',
+    phone: '4931709623',
+    website: 'kale.biz',
+    company: 'Robel-Corkery'
+  }
+]}

@@ -1,0 +1,17 @@
+{
+  "name": "nodecrashcourse",
+  "version": "1.0.0",
+  "description": "Node Js crash course practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kojo",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
+  }
+}

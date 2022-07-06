@@ -1,0 +1,35 @@
+@use "../custom" as *;
+@use "../components/mixin" as *;
+
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba($light-color, 0.6);
+
+  span {
+    position: absolute;
+    background-color: $primary;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+
+    i {
+      line-height: 2.5rem;
+      color: white;
+    }
+  }
+
+  &:hover {
+    @include gradient;
+    color: aliceblue;
+
+    span {
+      background-color: rgba(black, 0.6);
+    }
+  }
+}
