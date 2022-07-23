@@ -1,0 +1,33 @@
+// Import
+@use "../custom" as *;
+@use "../components/mixin" as *;
+
+.menu {
+  background: $light-color;
+
+  .container-fluid .navbar-brand .logo {
+    width: auto;
+    height: 3rem;
+    padding-left: 5rem;
+  }
+
+  .container-fluid {
+    .nave {
+      position: relative;
+      left: 12rem;
+      font-family: $font-family-4;
+    }
+  }
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      text-transform: capitalize;
+      font-weight: 700;
+
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+}

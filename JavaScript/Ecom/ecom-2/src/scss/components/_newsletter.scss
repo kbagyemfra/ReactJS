@@ -1,0 +1,42 @@
+// Import
+@use "../custom" as *;
+
+.newsletter {
+  background-color: #ffe6ea;
+  padding-bottom: 1.5rem;
+
+  h1 {
+    display: flex;
+    position: relative;
+    font-family: $font-family-4;
+    padding-top: 4rem;
+    font-weight: 500;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  h5 {
+    display: flex;
+    position: relative;
+    font-family: $font-family-4;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .btn {
+    position: relative;
+    left: 40rem;
+    height: 3rem;
+    width: 24rem;
+    font-size: 1.5rem;
+  }
+}

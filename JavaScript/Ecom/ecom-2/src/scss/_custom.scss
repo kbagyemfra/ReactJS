@@ -1,0 +1,68 @@
+// MY THEME COLORS
+$light-color: #fff;
+$light-color-alt: #afb6cd;
+$primary-background-color: #131417;
+$secondary-background-color: #252830;
+$hover-light-color: var(--light-color);
+$hover-dark-color: var(--primary-background-color);
+
+$transparent-light-color: rgba(255, 255, 255, 0.05);
+$transparent-dark-color: rgba(0, 0, 0, 0.75);
+$purple-dark: #9926f0;
+$purple-light: #bb6ef5;
+$pink: #d122e3;
+$footer: #151414;
+
+// Font
+$font-family-1: "Nunito", sans-serif;
+$font-family-2: "Gentium Book Plus", serif;
+$font-family-3: "Teko", sans-serif;
+$font-family-4: "Roboto", sans-serif;
+
+// Pixel to Rem
+// $conversion: 0.063rem;
+
+// Font size
+$font-size-xsm: 1.2rem;
+$font-size-sm: 1.6rem;
+$font-size-md: 2.4rem;
+$font-size-lg: 3rem;
+$font-size-xl: 4rem;
+
+$gap: 2rem;
+$margin-sm: 2rem;
+$margin-md: 3rem;
+$item-min-height-sm: 20rem;
+$item-min-height-md: 30rem;
+
+// Primary & Secondary
+
+$primary: $purple-dark;
+$secondary: $pink;
+
+// gradient
+$gradient-color: linear-gradient(
+  115deg,
+  #4fcf70,
+  #fad648,
+  #a767e5,
+  #12bcfe,
+  #44ce7b
+);
+$gradient-color-1: linear-gradient(
+  to right,
+  rgba($primary, 0.95),
+  rgba($secondary, 0.75)
+);
+
+// ACCORDION OVERRIDES
+$accordion-padding-y: 1.5rem; // LEAVE THE PADDING-Y TO DEFAULT
+$accordion-padding-x: 1.5rem; // LEAVE THE PADDING-X TO DEFAULT
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+// $accordion-icon-width:                    1.875rem; // LEAVE THE WIDTH TO DEFAULT
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z'/></svg>");
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/>  <path d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm2.5 7.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1z'/></svg>");
+
+// IMPORT BOOTSTRAP 5
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";

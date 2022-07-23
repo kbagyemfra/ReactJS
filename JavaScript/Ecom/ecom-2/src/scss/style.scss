@@ -1,0 +1,15 @@
+@use "custom";
+
+// IMPORT COMPONENTS
+
+@use "components/navbar";
+@use "components/announce";
+@use "components/slider";
+@use "components/categories";
+@use "components/newsletter";
+@use "components/products";
+@use "components/footer";
+
+// Import PAGES
+@use "pages/productList";
+@use "pages/register";

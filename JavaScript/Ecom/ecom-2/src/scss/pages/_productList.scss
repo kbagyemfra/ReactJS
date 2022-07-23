@@ -1,0 +1,128 @@
+// Import
+@use "../custom" as *;
+
+.product-list {
+  h1 {
+    margin: 1.2rem;
+  }
+
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+
+    .filter {
+      margin: 1.2rem;
+
+      .filter-text {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-right: 1.2rem;
+      }
+
+      select {
+        padding: 0.625rem;
+        margin-right: 1.2rem;
+      }
+    }
+  }
+}
+
+.product-page-container {
+  .wrapper {
+    padding: 3.125rem;
+    display: flex;
+
+    .img-contain {
+      flex: 2;
+
+      img {
+        width: 70%;
+        height: 90vh;
+        object-fit: contain;
+      }
+    }
+    .info-contain {
+      flex: 1;
+      padding: 0 3.1rem;
+
+      .title {
+        font-weight: bold;
+        // font-family: "Times New Roman", Times, serif;
+      }
+
+      .des {
+        margin: 1.5rem 0rem;
+      }
+
+      span {
+        font-weight: 200;
+        font-size: 3rem;
+      }
+
+      .filter-container {
+        width: 50%;
+        margin: 2.6rem 0rem;
+        display: flex;
+        justify-content: space-between;
+
+        .filter {
+          display: flex;
+          align-items: center;
+
+          .pick-color {
+            font-size: 1.2rem;
+            font-weight: 300;
+          }
+
+          .color {
+            width: 1.2rem;
+            height: 1.2rem;
+            border-radius: 50%;
+            margin: 0rem 0.3rem;
+            cursor: pointer;
+          }
+
+          .size {
+            margin-left: 0.7rem;
+            padding-right: 0.3rem;
+            font-size: 1.5rem;
+          }
+          .size-box {
+            position: relative;
+            top: 0.1rem;
+            left: 0.2rem;
+          }
+        }
+      }
+
+      .add-container {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .amount-container {
+          display: flex;
+          align-items: center;
+
+          .point {
+            cursor: pointer;
+          }
+        }
+
+        .amount {
+          width: 1.8rem;
+          height: 1.8rem;
+          border-radius: 0.7rem;
+          border: 0.1rem solid teal;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0rem 0.3rem;
+          font-weight: 700;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

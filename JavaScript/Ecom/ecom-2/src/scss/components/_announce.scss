@@ -1,0 +1,13 @@
+// Import
+@use "../custom" as *;
+
+.announce {
+  background-color: teal;
+  height: 2rem; // equlas 60px .. 10px = 0.625rem
+  color: $light-color;
+  font-family: $font-family-1;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

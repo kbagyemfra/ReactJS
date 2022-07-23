@@ -1,0 +1,47 @@
+// Import
+@use "../custom" as *;
+
+.nave {
+  .nav-link {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+  .center,
+  .right {
+    flex: none;
+    // display: inline-block;
+  }
+
+  .center {
+    text-align: center;
+    font-weight: bold;
+    font-family: $font-family-3;
+    font-size: $font-size-md;
+    right: 3rem;
+    position: relative;
+  }
+
+  .right {
+    align-items: center;
+    justify-content: center;
+
+    span {
+      padding-right: 0.4rem;
+    }
+
+    .right-text {
+      padding-left: 0.5rem;
+      font-weight: 500;
+      font-family: $font-family-3;
+      font-size: $font-size-sm;
+    }
+  }
+}
