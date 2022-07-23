@@ -1,0 +1,58 @@
+export const about1 = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Bank",
+  headline: "Unlimited Bank transaction",
+  subtitle: "No fees required for trial",
+  description:
+    "Get access to all our exclusive apps that allow you to really get the discounts on purchases and so much more",
+  buttonLabel: "Home",
+  imgStart: true,
+  img: "./img/svg-1.svg",
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+  goTo: "home",
+};
+
+export const about2 = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Green Credit Card",
+  headline: "0.175% on APR",
+  subtitle: "No fees required for trial",
+  description: "Get access to all our exclusive deals with our apps",
+  buttonLabel: "Discover",
+  imgStart: false,
+  img: "./img/svg-2.svg",
+  alt: "Card",
+  dark: true,
+  primary: true,
+  darkText: true,
+  goTo: "discover",
+};
+
+export const about3 = {
+  id: "discover",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Bank",
+  headline: "Unlimited Bank transaction",
+  subtitle: "No fees required for trial",
+  description:
+    "Get access to all our exclusive apps that allow you to really get the discounts on purchases and so much more",
+  buttonLabel: "services",
+  imgStart: true,
+  img: "./img/svg-3.svg",
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+  goTo: "services",
+};

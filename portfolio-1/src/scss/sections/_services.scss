@@ -1,0 +1,84 @@
+@use "../custom" as *;
+
+.service-container {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $dark;
+  color: $light-color;
+
+  @media screen and (max-width: $mobile-width-2) {
+    height: 75rem;
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    height: 100rem;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-family: $font-family;
+  }
+
+  .service-wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 3.2rem;
+
+    @media screen and (max-width: $mobile-width-2) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $mobile-width) {
+      grid-template-columns: 1fr;
+      padding: 0 1.2rem;
+    }
+
+    .card {
+      background: $light-color;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 0.5rem;
+      max-height: 20rem;
+      padding: 2rem;
+      box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0.2, 0.2);
+      transition: all 0.2s ease-in-out;
+      color: $dark;
+
+      &:hover {
+        transform: scale(1.02);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+      }
+
+      .card-icon {
+        height: 10rem;
+        width: 10rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .card-head {
+        font-size: $font-size-sm;
+        margin-bottom: 0.5rem;
+        font-family: $font-family-4;
+
+        @media screen and (max-width: $mobile-width) {
+          font-size: $font-size-xsm;
+        }
+      }
+
+      .card-desc {
+        font-family: $font-family-3;
+        font-size: 1rem;
+      }
+    }
+  }
+}

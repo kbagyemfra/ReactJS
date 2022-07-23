@@ -1,0 +1,103 @@
+@use "../custom" as *;
+
+.footer {
+  background-color: black;
+  color: $light-color;
+  .footer-wrapper {
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 75rem;
+    margin: 0 auto;
+
+    .link-container {
+      display: flex;
+      justify-content: center;
+
+      @media screen and (max-width: $mobile-width-2) {
+        padding-top: 2.5rem;
+      }
+
+      .link-wrapper {
+        display: flex;
+
+        @media screen and (max-width: $mobile-width-2) {
+          flex-direction: column;
+        }
+
+        .foot-items {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin: 1rem;
+          text-align: left;
+          width: 10rem;
+          box-sizing: border-box;
+
+          @media screen and (max-width: $mobile-width-2) {
+            margin: 0;
+            padding: 0.6rem;
+            width: 100%;
+          }
+
+          .link-header {
+            font-size: $font-size-sm;
+            font-family: $font-family-1;
+            margin-bottom: 0.5rem;
+          }
+
+          .footer-link {
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+
+            &:hover {
+              color: $primary;
+              cursor: pointer;
+              transition: 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.social {
+  .container {
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 30rem;
+      padding-right: 30rem;
+      background: black;
+
+      .icon {
+        color: $light-color;
+        display: flex;
+        justify-self: start;
+        align-items: center;
+        cursor: pointer;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.copy-right {
+  color: $light-color;
+  background: $dark-color-alt;
+  //   margin-bottom: 1rem;
+
+  .bottom-copyright {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.3rem;
+    font-family: $font-family-5;
+  }
+}

@@ -1,0 +1,23 @@
+@use "../custom" as *;
+
+.btn-rounded {
+  border-radius: 3.125rem;
+  background: $primary;
+  white-space: nowrap;
+  padding: 0.625rem 1.3rem;
+  color: $hover-color-main;
+  // font-size: $font-size-xsm;
+  font-family: $font-family;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: $light-color;
+    color: $hover-color-main;
+    cursor: pointer;
+  }
+}

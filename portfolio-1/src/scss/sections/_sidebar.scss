@@ -1,0 +1,64 @@
+@use "../custom" as *;
+
+.sidebar-container {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: $dark-color;
+  display: grid;
+  align-items: center;
+  top: 0;
+  left: 0;
+  transition: 0.2s ease-in-out;
+
+  .icon {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    background: transparent;
+    font-size: $font-size-sm;
+    color: white;
+  }
+
+  .sidebar-wrapper {
+    color: $light-color;
+
+    .sidebar-menu {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 5rem);
+      text-align: center;
+
+      @media screen and (max-width: 30rem) {
+        grid-template-rows: repeat(6, 3.5rem);
+      }
+
+      .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $font-size-sm;
+        list-style: none;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          color: $primary;
+          transition: 0.2s ease-in-out;
+        }
+      }
+    }
+
+    .sidebar-btn-wrapper {
+      display: flex;
+      //   align-items: center;
+      justify-content: center;
+
+      .link-btn {
+        padding: 0.7rem 4rem;
+        font-size: $font-size-xsm;
+        font-weight: 600;
+      }
+    }
+  }
+}

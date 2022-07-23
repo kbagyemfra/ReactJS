@@ -1,0 +1,91 @@
+@use "../custom" as *;
+
+.nave {
+  background: #000;
+  height: 4.8rem;
+  margin-top: -6.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 4.8rem;
+    z-index: 1;
+    width: 100%;
+    padding: 0 1.2rem;
+    max-width: 90rem;
+
+    .nav-logo {
+      justify-self: flex-start;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      margin-left: 1.4rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    // mobile icon
+    .mobile-icon {
+      display: none;
+
+      @media screen and (max-width: $mobile-width) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: $light-color;
+      }
+    }
+
+    .menu {
+      color: $light-color;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      text-align: center;
+      margin-right: 1.2rem;
+      height: 5rem;
+
+      @media screen and (max-width: $mobile-width) {
+        display: none;
+      }
+
+      .link {
+        padding: 0 1rem;
+        text-transform: capitalize;
+        cursor: pointer;
+        // height: 100%;
+      }
+
+      & .green-bar {
+        text-decoration-line: underline;
+        text-decoration-thickness: 0.2rem;
+        text-decoration-color: $primary;
+        text-underline-offset: 0.5rem;
+      }
+    }
+
+    .sign-up {
+      display: flex;
+      align-items: center;
+
+      @media screen and (max-width: $mobile-width) {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    transition: 0.8s all ease;
+  }
+}
