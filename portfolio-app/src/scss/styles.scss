@@ -1,0 +1,14 @@
+// IMPORT VARIABLES
+@use "custom";
+
+// IMPORT SECTIONS
+@use "sections/home";
+@use "sections/main";
+@use "sections/about";
+@use "sections/portfolio";
+@use "sections/blogs";
+@use "sections/contact";
+@use "sections/media";
+
+// IMPORT COMPONENTS
+@use "components/buttons";
