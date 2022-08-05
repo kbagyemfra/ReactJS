@@ -1,0 +1,85 @@
+// MY THEME COLORS
+$light-color: #edf2f8;
+$light-color-alt: #e4e4e4;
+$gray-color: #6b7688;
+$dark: #010606;
+$dark-color: #131417;
+$dark-color-1: #030303;
+$dark-color-alt: #252830;
+
+$red: red;
+$golden: #ffc107;
+$green: #01bf71;
+$blue: blue;
+$royal-blue: #313bac;
+
+$purple-dark: #9926f0;
+$purple-light: #bb6ef5;
+$pink: #d122e3;
+$brown: #46364a;
+$white: #ffff;
+$footer: #151414;
+
+$hover-light-color: $light-color;
+$hover-dark-color: $dark-color-1;
+$hover-color-main: #010606;
+
+$transparent-light-color: rgba(255, 255, 255, 0.05);
+$transparent-dark-color: rgba(0, 0, 0, 0.75);
+
+// Primary & Secondary
+
+$primary: $light-color;
+$secondary: $royal-blue;
+
+// gradient
+$gradient-color: linear-gradient(
+  115deg,
+  #4fcf70,
+  #fad648,
+  #a767e5,
+  #12bcfe,
+  #44ce7b
+);
+$gradient-color-1: linear-gradient(
+  to right,
+  rgba($primary, 0.95),
+  rgba($secondary, 0.75)
+);
+
+// Font Families
+$font-family: "Nunito", sans-serif;
+$font-family-1: "Gentium Book Plus", serif;
+$font-family-2: "Noto Sans", sans-serif;
+$font-family-3: "Roboto", sans-serif;
+$font-family-4: "Signika", sans-serif;
+$font-family-5: "Teko", sans-serif;
+$font-family-6: "Ubuntu", sans-serif;
+$font-family-7: "Lato", sans-serif;
+$font-family-8: "Mouse Memoirs", sans-serif;
+
+// Font Sizes
+
+$font-size-xxsm: 0.7rem;
+$font-size-xsm: 1.2rem;
+$font-size-sm: 1.6rem;
+$font-size-md: 2.4rem;
+$font-size-lg: 3rem;
+$font-size-xl: 4rem;
+$font-size-xxl: 6rem;
+$gap: 2rem;
+$margin-sm: 2rem;
+$margin-md: 3rem;
+$item-min-height-sm: 20rem;
+$item-min-height-md: 30rem;
+
+// Mobile screen sizes
+$mobile-width-xxsm: 23.75rem;
+$mobile-width-xsm: 30rem;
+$mobile-width-sm: 35.5rem;
+$mobile-width-md: 41.7rem;
+$mobile-width-lg: 48rem;
+$mobile-width-xl: 60rem;
+
+// IMPORT BOOTSTRAP 5
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
